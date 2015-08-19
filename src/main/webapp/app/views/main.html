@@ -1,0 +1,14 @@
+<div class="title">
+  <h1>Web Crawler</h1>
+</div>
+<div class="searchBox">
+  <p>Enter URL to crawl</p>
+  <input ng-model="url" type="url" size="50">
+  <button type="button" class="button" ng-click="crawl()">
+      Crawl!
+  </button>  
+  <div class="message" ng-show="message"><span>Message: {{message}}</span></div>
+  <hr>
+  <div class="crawledUrl" ng-show="crawledUrl"><span>{{crawledUrl}}</span></div>
+</div>
+

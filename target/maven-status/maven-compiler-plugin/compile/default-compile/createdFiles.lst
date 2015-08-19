@@ -1,0 +1,7 @@
+com\ajscrawler\bean\response\CrawlListResponse.class
+com\ajscrawler\bean\response\CrawlResponse.class
+com\ajscrawler\bean\request\CrawlRequest.class
+com\ajscrawler\facade\CrawlTester.class
+org\netbeans\rest\application\config\ApplicationConfig.class
+com\ajscrawler\impl\CrawlerImpl.class
+com\ajscrawler\facade\CrawlerFacadeRest.class
